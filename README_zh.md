@@ -90,6 +90,12 @@ agentUniverse提供基于本地的画布式研发平台能力，请按照如下�
 ```shell
 pip install magent-ui ruamel.yaml
 ```
+遇到ERROR: Failed to build installable wheels for some pyproject.toml based projects (chroma-hnswlib)
+如果是基于conda虚拟环境，可以采用
+```shell
+pconda install chroma-hnswlib
+```
+
 
 **一键运行**
 
